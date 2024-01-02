@@ -36,3 +36,5 @@ January 2, 2024 ( Git & Github )
 -- > git --global user.email (write email without any quoatation) 
 --> check what has changed -> git config -l
 ---> Live server on github https://username.github.io/project name
+-->#create new beanch git checkout -b branchName
+--> switch to branch git checkout branchNmae
