@@ -29,3 +29,10 @@ January 2, 2024 ( Git & Github )
 
 --> Git is a distributed version control sysytem.
 --> Github is a web based hosting servie and platform that utilizes git version control system
+--> ls to check if the numbers of directories that can be used
+--> git init -> to initialize.
+--> git add . -> to add
+-- > git --global user.name "user name"
+-- > git --global user.email (write email without any quoatation) 
+--> check what has changed -> git config -l
+---> Live server on github https://username.github.io/project name
