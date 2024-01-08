@@ -1,0 +1,427 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: avenir;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--primary-color);
+}
+a{
+    text-decoration: none;
+    color:var(--primary-color);
+}
+li{
+    list-style:none;
+}
+button{
+    border:none;
+}
+:root{
+    --primary-color:white;
+    --bg-secondary:rgb(255, 236, 236);
+    --secondary-color:red;
+    --text-main-color:black;
+    --text-small-color:rgba(7,2,17,0.60); 
+}
+@font-face {
+    font-family: avenir;
+    src: url("avenirltstd-roman-webfont.woff2");
+}
+@font-face {
+    font-family: avenirBold;
+    src: url("avenirltstd-black-webfont.woff2");
+}
+
+/* Main content styling starts here */
+/* --------------##---------------- */
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    margin: 3rem auto;
+}
+.banner{
+    background-image: url("Banner\ Image.jpg");
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(70%);
+    width:1320px;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    padding-top: 2.5rem;
+    color:var(--primary-color)
+    
+
+}
+
+.banner p{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    z-index: 1;
+    text-shadow:2px 2px 4px var(--secondary-color);
+
+}
+.banner h1{
+    font-size: 5rem;
+    font-family: avenirBold;
+    text-shadow:2px 2px 4px var(--secondary-color);
+    
+}
+.discount{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+.discount p{
+    font-size: 5rem;
+    font-family: avenirBold;
+    color:var(--secondary-color);
+    margin-bottom: 2rem;
+}
+.discount h3{
+    color:var(--secondary-color);
+    margin-bottom: 15px;
+}
+.discount h2{
+    font-size: 2.5rem;
+    color:var(--text-main-color);
+    margin-bottom: 2.5rem;
+}
+.discount img{
+    max-width: 100%;
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("Vectorrr.png");
+    background-repeat: no-repeat;
+    padding: 4rem;
+    backdrop-filter: brightness(70%);
+    width:1320px;
+    border-radius: 1rem;
+    background-position: center;
+    height: 600px;
+    color:var(--primary-color);
+}
+.welcome .part-des > span{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    line-height: 1.3;
+    font-family: avenirBold;
+}
+.welcome .part-des > p{
+    margin-top: 15px;
+    max-width: 500px;
+}
+.welcome .part-des button{
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    width: 150px;
+    color:var(--primary-color);
+    background-color: var(--text-main-color);
+    box-shadow: 0 0 10px 5px var(--secondary-color);
+    cursor:pointer;
+}
+.welcome .part-des button:hover{
+    transform: scale(0.97);
+    box-shadow: 0 0 10px 5px var(--primary-color);
+}
+.location-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1320px;
+    border-radius: 1rem;
+    height: 482px;
+    margin: 5rem 0rem;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+}
+.location-details p{
+    color:var(--secondary-color);
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.location-details p span{
+    color:var(--text-main-color);
+    font-size: 1.5rem;
+}
+.location-details button{
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    width: 150px;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    color:var(--primary-color);
+    cursor: pointer;
+}
+.location-details button:hover{
+    transform: scale(0.97);
+}
+
+.upcoming-event{
+    display: flex;
+    align-items: center;
+    gap:3rem;
+    margin: 4rem 0rem;
+    width:1320px;
+    justify-content:center;
+}
+.upcoming-event .offer-description{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-top:5rem;
+}
+.upcoming-event .offer-description img{
+    width: 140px;
+    height: 140px;
+}
+.upcoming-event .offer-description p{
+    color:var(--text-small-color);
+}
+.upcoming-event .offer-description p:nth-child(1){
+    font-family: avenirBold;
+    color:var(--secondary-color);
+    font-size: 2rem;
+}
+.offer-image img{
+    border:10px solid var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin-right: 5rem;
+
+}
+.offer-des{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.offer-des p{
+    color:var(--secondary-color);
+}
+.offer-des > h2{
+    font-family: avenirBold;
+    font-size: 2rem;
+}
+.offer-des span{
+    color:var(--text-small-color);
+}
+
+.holiday-sell{
+    width:1320px;
+    display:flex;
+    margin: 4rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sell-image{
+    display:flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.gift-box{
+    display:flex;
+    justify-content:space-between;
+}
+.discount-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gift-box img{
+    width: 250px;
+    height: 250px;
+}
+.discount-box img:nth-child(1){
+    width: 150px;
+    height: 150px;
+    margin-right: -5rem;
+    z-index: 1;
+}
+.discount-box img:nth-child(2){
+    z-index: -1;
+}
+.rectangel-red img{
+    height:150px;
+    width: 1320px;
+    z-index: -1;
+}
+.sell-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+.sell-description p{
+    margin-bottom: 1rem;
+}
+.sell-description h2{
+    font-size: 3rem;
+    font-family: avenirBold;
+    color:var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+.sell-description h2 span{
+    color:var(--text-main-color);
+    font-family: avenirBold;
+}
+.sell-description span{
+    color:var(--text-small-color);
+    max-width: 850px;
+    line-height: 1.5;
+}
+.product-display{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    width:1320px;
+}
+.items-description{
+    display: flex;
+    flex-direction: column;
+}
+.items-description p{
+    color:var(--secondary-color);
+    margin-bottom: 1rem;
+}
+.items-description h2{
+    font-size: 2.5rem;
+    font-family: avenirBold;
+    margin-bottom: 1rem;
+}
+.items-description span{
+    color:var(--text-small-color);
+    width: 500px;
+    line-height: 1.5;
+}
+
+.our-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+.our-items img{
+    filter: blur(9px);
+    max-width: 100%;
+
+}
+.our-items img:hover{
+    filter:blur(0px);
+}
+
+.news-letter{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 4rem 0rem;
+    padding: 2rem;
+    background-color:var(--bg-secondary);
+    width: 1320px;
+    border-radius: 0.5rem;
+}
+.news-letter p{
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: avenirBold;
+}
+.news-letter span{
+    max-width: 900px;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+    color:var(--text-small-color);
+}
+form{
+    display: flex;
+}
+input[type="email"]{
+    height: 45px;
+    width: 350px;
+    padding-left: 15px;
+    border:none;
+    border-radius: 1.5rem 0rem 0rem 1.5rem;
+    background-color: var(--primary-color);
+}
+input[type="button"]{
+    height: 45px;
+    width:150px;
+    cursor:pointer;
+    border: none;
+    color:var(--primary-color);
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+    background-color: var(--secondary-color);
+    
+}
+input[type="button"]:hover{
+    border:1px solid var(--primary-color)
+}
+/* Footer styling starts here */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  color: var(--primary-color);
+  background-color: var(--text-main-color);
+  padding: 4rem;
+  gap: 3rem;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.social {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.privacy {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-around; 
+  
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-x-twitter,
+.fa-linkedin {
+  font-size: 2rem;
+  color: white;
+}
+.address, .contact{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+
+}
+
