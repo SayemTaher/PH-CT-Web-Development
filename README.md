@@ -38,3 +38,8 @@ January 2, 2024 ( Git & Github )
 ---> Live server on github https://username.github.io/project name
 -->#create new beanch git checkout -b branchName
 --> switch to branch git checkout branchNmae
+
+January 8 ( CSS Pseudo class & Element )
+<-------------------------------------->
+--> :focus{} ,:visited {}, :first-child{}, :last-child{}, :nth-child(2n+1,2n,2n+2){}
+--> ::first-letter{},::first-line{},::selection{},::before{},::after{}
