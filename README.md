@@ -62,4 +62,5 @@ Note: work with fraction changes if you use fr . let's you are using 5 columns w
 5. two column flex and use media query with flex direction column.
 6. multi column :use grid
 7. Responsive Menu
-
+----> Grid is layout first while flexbox is content first
+---> Grid is multi dimensional while flexbox is single dimensional.
