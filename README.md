@@ -43,3 +43,23 @@ January 8 ( CSS Pseudo class & Element )
 <-------------------------------------->
 --> :focus{} ,:visited {}, :first-child{}, :last-child{}, :nth-child(2n+1,2n,2n+2){}
 --> ::first-letter{},::first-line{},::selection{},::before{},::after{}
+January 9,2024 (Responsive web design)
+--------------------------------
+--grid---
+grid-templates-columns:repeat(4,1fr)
+grid-templates-rows: repeat (3,1fr or pixe)
+----@media query ---
+small devices: @media screen and (max-width:576px){}
+medium devices: @media screen and(min-width:576px and max-width:992px){}
+Note: work with fraction changes if you use fr . let's you are using 5 columns with 1fr space then at the breaking point use 2 or 3 columns with 1fr unit. 
+
+
+--- 7 things to know for web responsiveness.
+1. meta tag in your HTML that defines your viewport.
+2. Use CSS Relative unit.
+3. Body max-width and Center Align. can be achieved using body{margin:0 auto}.
+4. Image fluid (use percentage for width)
+5. two column flex and use media query with flex direction column.
+6. multi column :use grid
+7. Responsive Menu
+
