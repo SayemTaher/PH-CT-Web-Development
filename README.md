@@ -51,7 +51,7 @@ grid-templates-rows: repeat (3,1fr or pixe)
 ----@media query ---
 small devices: @media screen and (max-width:576px){}
 medium devices: @media screen and(min-width:576px and max-width:992px){}
-Note: work with fraction changes if you use fr . let's you are using 5 columns with 1fr space then at the breaking point use 2 or 3 columns with 1fr unit. 
+Note: work with fraction changes if you use fr . let's think you are using 5 columns with 1fr space then at the breaking point use 2 or 3 columns with 1fr unit. 
 
 
 --- 7 things to know for web responsiveness.
