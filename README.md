@@ -64,3 +64,8 @@ Note: work with fraction changes if you use fr . let's you are using 5 columns w
 7. Responsive Menu
 ----> Grid is layout first while flexbox is content first
 ---> Grid is multi dimensional while flexbox is single dimensional.
+
+January 10, 2024 ( Flexbox & Grid)
+----------------------------------
+--> to expand anything towards column or use grid-row: span 5//grid-column: span 5
+--> for making the image fit the content you can use img-width like : width: calc((100%-5px)/ number of images)
